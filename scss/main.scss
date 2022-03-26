@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 * {
   box-sizing: border-box;
@@ -80,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio bio'
-    'job1 job2 job3';
+    'school1 school2 school3';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -95,19 +94,19 @@ main {
     font-size: 1.5rem;
   }
 
-  .job-1 {
-    grid-area: job1;
+  .school-1 {
+    grid-area: school1;
   }
 
-  .job-2 {
-    grid-area: job2;
+  .school-2 {
+    grid-area: school2;
   }
 
-  .job-3 {
-    grid-area: job3;
+  .school-3 {
+    grid-area: school3;
   }
 
-  .job {
+  .school {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
@@ -189,3 +188,5 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
+
+@import 'mobile';

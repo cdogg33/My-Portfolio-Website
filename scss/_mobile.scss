@@ -46,6 +46,17 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'school1'
+      'school2'
+      'school3';
+
+    grid-template-columns: 1fr;
+  }
 }
 //  SMARTPHONES
 
