@@ -1,8 +1,43 @@
+$website-width: 1280px;
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url('../imgs/background.jpg');
 $background-opacity: 0.9;
+
+// Padding
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+// Margin
+
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
